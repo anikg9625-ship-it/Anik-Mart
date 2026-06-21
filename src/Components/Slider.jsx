@@ -1,7 +1,7 @@
 import React from "react";
 import "./Css/slider.css";
-import grocery from "../assets/images/GrocerySlider.png";
-import jewellery from "../assets/images/JwellerySlider.png";
+import grocery from "../assets/images/Groceryslider.png";
+import jewellery from "../assets/images/Jwelleryslider.png";
 import clothes from "../assets/images/kapde.png";
 
 const Slider = () => {
