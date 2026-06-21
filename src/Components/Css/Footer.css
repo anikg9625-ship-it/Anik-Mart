@@ -1,0 +1,12 @@
+.footer{
+    background-color: rgb(10, 10, 12);
+    height: 250px;
+    width: auto;
+}
+
+@media (max-width: 991px) {
+  .navbar-collapse {
+    background: #212529;
+    padding: 15px;
+    border-radius: 10px;
+  }}

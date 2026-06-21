@@ -1,0 +1,53 @@
+.navbar {
+  transition: all 0.3s ease;
+  background-color: rgb(87, 131, 87);
+}
+
+.nav-link {
+  font-size: 16px;
+  font-weight: 500;
+  position: relative;
+  transition: 0.3s;
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background: #fafafa;
+  left: 0;
+  bottom: 0;
+  transition: 0.3s;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+.nav-link:hover {
+  color: #ffffff !important;
+}
+
+.nav-icon {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.nav-icon:hover {
+  transform: scale(1.2);
+  color: #ffc107;
+}
+
+@media (max-width: 991px) {
+  .navbar-collapse {
+    background: rgb(87, 131, 87);
+    padding: 15px;
+    border-radius: 10px;
+    
+  }
+
+  .nav-link {
+    padding: 10px 0;
+  }
+}
